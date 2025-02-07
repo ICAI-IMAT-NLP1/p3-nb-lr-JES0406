@@ -27,6 +27,7 @@ def test_estimate_conditional_probabilities():
 
     # When
     cond_probs = model.conditional_probabilities
+    print(cond_probs)
 
     # Then
     assert isinstance(cond_probs, dict)
